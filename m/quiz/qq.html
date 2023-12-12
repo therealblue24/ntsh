@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>In a Nutshell - quiz</title>
+        <style>
+                body {
+                    background-color: white;
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16;
+                }
+                blockquote {
+                    margin: 0;
+                }
+
+                blockquote div {
+                    padding: 15px;
+                    background: #eee;
+                    border-radius: 5px;
+                }
+                table,
+                td {
+                    border: 0px solid #333;
+                }
+
+                thead,
+                tfoot {
+                    background-color: #333;
+                    color: #fff;
+                }
+
+        </style>
+        <script src="quiz.js"></script>
+    </head>
+    <body>
+        <div id="trolling">
+            <h1 id="tt">Question 1</h1>
+            <blockquote cite="">
+                <div id="qq">
+                    <p></p>
+                </div>
+            </blockquote>
+            <p/>
+            <p style="display:inline;">Your answer: </p><input type="text" id="inp"></input><p style="display:inline;">  </p><button id="button" onclick="submit()">Submit..</button>
+            <br>
+            <p id="num">Question 1/??</p>
+            <p id="stat">0 correct, 0 wrong</p>
+        </div>
+    </body>
+</html>
